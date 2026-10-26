@@ -1,0 +1,49 @@
+﻿chapter,opportunity_id,title,feature_family,trait,axis,evidence_event,anti_bias_note
+C1,C1-O01,승선 후보 기술/상황 문서 중 추가 자료 자발적 열람,optional_docs,C,SN,c1_dossier_open,문서를 안 열어도 다른 방식으로 충분한 정보가 있음을 보장
+C1,C1-O02,최종 명단 전에 2개 이상 편성안 비교,roster_compare,O,JP,c1_roster_compare,편성 안의 신분/정체가 아닌 대안 비교 과정만
+C1,C1-O03,선호하는 탑승 기준 체크리스트를 자발적으로 작성,optional_plan,C,JP,c1_plan,필수 안내 체크리스트는 제외
+C1,C1-O04,후보에게 직접 자발적으로 추가 질문,optional_social,E,EI,c1_talk,도움/정보 획득 필수 대화는 외향성 배점 금지
+C1,C1-O05,다른 관점의 제안 들은 후 합리적 비교 수행,perspective_check,A,TF,c1_perspective,누구를 최종 선택했는지와 구분
+C1,C1-O06,4명 명단 최종 확정,manifest_lock,STORY,NONE,c1_final_roster,후보 정체·가족 관계·선정 결과는 점수 완전 배제
+C2,C2-O01,기본 지급 목록과 추가 짐 설명 자발적 탐색,optional_docs,C,SN,c2_inventory,설명 보기와 단순 폰트확대 구별
+C2,C2-O02,12kg 적재안 2개 이상 미리보기,compare_variants,O,JP,c2_compare,정량 무게가 아니라 대안 실험 횟수 상한
+C2,C2-O03,짐 배치 뒤 무게중심/안전 목록 자발적 점검,verify,C,JP,c2_checks,필수 검사는 따로 존재하므로 선택적 확인만
+C2,C2-O04,다른 선발자에게 짐에 관한 자발적 의견 요청,optional_social,E,EI,c2_optional_talk,선발자 누구든 가능해야 함
+C2,C2-O05,동료의 제약·요청을 확인하고 대안 찾기,perspective_check,A,TF,c2_requests,선발자의 존재 여부에 따른 기회 등가성 확보
+C2,C2-O06,개인 사진/씨앗/공구 등 어떤 짐을 최종 택했는지,final_luggage,STORY,NONE,c2_final_items,도덕·취향 자체는 성격에 가산하지 않음
+C3,C3-O01,기밀 경보의 독립된 센서 정보 비교,optional_docs,C,SN,c3_sensors,안전 결론이 아니라 정보 접근
+C3,C3-O02,진단 순서 자발적 계획 수립,optional_plan,C,JP,c3_plan,단일 필수 클릭과 구분
+C3,C3-O03,대체 밸브/검증 절차 비교·시뮬레이션,compare_variants,O,SN,c3_alternatives,안전 우회는 보상하지 않음
+C3,C3-O04,승무원 자발적 협의 시작,optional_social,E,EI,c3_talk,필수 명령 전달 제외
+C3,C3-O05,수리 전 다른 작업자의 부담을 고려해 역할 재배치,perspective_check,A,TF,c3_shift,어떤 승무원을 탔는지와 무관하게 지원
+C3,C3-O06,수리 확인 및 발사 승인,repair_complete,STORY,NONE,c3_launch,빠르게 발사하거나 늦게 발사한다고 점수 부여 금지
+C4,C4-O01,선내 자발적인 일상 대화 또는 공동 활동 시작,optional_social,E,EI,c4_social,필수 임무 대화는 제외
+C4,C4-O02,물 회수 장치 이력 기록 탐색,optional_docs,C,SN,c4_waterlog,도구 사용 접근성 차이 보정
+C4,C4-O03,물 회수 수리용 대안관로 2개 비교,compare_variants,O,SN,c4_compare,대안의 기술적 결과가 아니라 탐색
+C4,C4-O04,작업표 수립 및 진행 후 갱신,optional_plan,C,JP,c4_schedule,필수 과정 제외
+C4,C4-O05,지구 기록을 같이 보는 동료 의사 확인,perspective_check,A,TF,c4_consent,메시지 열람 여부 자체는 점수 제외
+C4,C4-O06,지구 마지막 영상 재생 또는 보관 결정,earth_message_choice,STORY,NONE,c4_message,상실·감정대응을 성격으로 오판 금지
+C5,C5-O01,착륙 지점 세 후보 정보 자발적 추가 비교,compare_variants,O,SN,c5_landing_options,필수 위험 안내는 모두 표시
+C5,C5-O02,고도/지형 자료 열람·대조,optional_docs,C,SN,c5_topography,기본 정보 자동 표시 이외 행동
+C5,C5-O03,착륙 전 체크리스트 자발적 재검토,verify,C,JP,c5_check,안전 필수 검사는 점수 제외
+C5,C5-O04,승무원에게 자발적 상황 공유,optional_social,E,EI,c5_broadcast,안전 안내 강제 방송 제외
+C5,C5-O05,다른 구성원의 이동 부담 확인,perspective_check,A,TF,c5_mobility,후보 선정에 유불리 없게
+C5,C5-O06,최종 착륙 지점 및 조종 미니게임 수행,land_success,STORY,NONE,c5_land,퍼즐 숙련/속도/난이도 선택을 성격으로 해석 금지
+C6,C6-O01,전력/산소/CO2/기압 패널 추가 진단,optional_docs,C,SN,c6_diagnostics,안전 필수 수치 확인 강제분은 제외
+C6,C6-O02,서로 다른 안전한 재시동 시퀀스 비교,compare_variants,O,SN,c6_sequences,안전규정 무시를 호기심으로 보상 금지
+C6,C6-O03,각 시스템 역할분담 계획 구성,optional_plan,C,JP,c6_roles,자발적 행동 한정
+C6,C6-O04,동료에게 수리 지원 요청/상황 설명,optional_social,E,EI,c6_ask,필수 작업명령 제외
+C6,C6-O05,휴식/생활의 제약과 동료 요구 확인,perspective_check,A,TF,c6_needs,지원 여부 자체의 도덕 판정 금지
+C6,C6-O06,전력 분배 실행/예비 산소 전환,life_support_choice,STORY,NONE,c6_power,목숨과 직결된 선택은 점수 배제
+C7,C7-O01,3개 후보지역 지층 정보 탐색,compare_variants,O,SN,c7_ice_sites,정보가 모두 동일하게 제공되는가 테스트
+C7,C7-O02,로버 활용 가능성/기기 목록 확인,optional_docs,C,SN,c7_rover_info,로버 보유 여부에 따른 점수 차등 금지
+C7,C7-O03,탐사 구역 작업계획·점검 작성,optional_plan,C,JP,c7_plan,필수 외부활동 안전 체크와 구분
+C7,C7-O04,선발 동료와 자발적 조사 논의,optional_social,E,EI,c7_talk,동료 선택 유무가 기회 수를 바꾸지 않음
+C7,C7-O05,팀원 안전/자원 제약 관점 포함,perspective_check,A,TF,c7_care,대안 모두 합리적으로 제시
+C7,C7-O06,시추 지역 선정·정수 실행,water_extract_choice,STORY,NONE,c7_water,안전/생존 결과를 점수 배제
+C8,C8-O01,운영 규칙의 여러 초안 비교,compare_variants,O,SN,c8_draft_versions,정치적 선호·권위주의 여부가 점수로 직결되지 않음
+C8,C8-O02,전력/농장/정비 업무 배치 계획 작성,optional_plan,C,JP,c8_schedule,최소 필수 협의는 점수 제외
+C8,C8-O03,동료에게 자발적 의견 요청,optional_social,E,EI,c8_council,회의 참석 강제 대화 제외
+C8,C8-O04,반대 의견과 제약에 관한 추가 자료 요청,perspective_check,A,TF,c8_dissent,다수결/전문가 중심 어떤 규칙 선호도 성격 점수 제외
+C8,C8-O05,합의안 변경 뒤 실현가능성 재점검,verify,C,JP,c8_final_check,동일 검사 강제 누름과 구분
+C8,C8-O06,첫 규칙/정착지 이름/마지막 답 선택,charter_end,STORY,NONE,c8_final_story,정책/가치 판단과 MBTI 성격 유형 연결 금지
